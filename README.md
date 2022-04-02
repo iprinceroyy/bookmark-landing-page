@@ -3,13 +3,12 @@
 ## Table of contents
 
 -   [Overview](#overview)
-    -   [End term goal](#the-challenge)
-    -   [Screenshot](#screenshot)
+    -   [End term goal](#end-term-goal)
+    -   [Design](#design)
     -   [Links](#links)
--   [Process](#my-process)
+-   [Process](#process)
     -   [Useful resources](#useful-resources)
--   [Author](#author)
--   [Acknowledgments](#acknowledgments)
+-   [Contributors](#contributors)
 
 ## Overview
 
@@ -23,7 +22,7 @@ Users should be able to:
     -   The input field is empty
     -   The email address is not formatted correctly
 
-### Screenshot
+### Design
 
 ![](./assets/design/desktop-preview.jpg)
 
