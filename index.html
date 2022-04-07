@@ -7,8 +7,43 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="">
+    <!-- <link rel="stylesheet" href=".css/index.css"> -->
 
     <title>Bookmark landing page</title>
+    <style>
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            /* overflow: hidden; */
+            display: inline;
+        }
+        
+        .nav li {
+            float: right;
+        }
+        
+        .nav li a {
+            display: block;
+            text-decoration: none;
+            padding: 0 12px;
+            color: black;
+        }
+        
+        .nav li a:hover {
+            color: red;
+        }
+        
+        .nav li a button {
+            padding: 2px 8px;
+        }
+        
+        .nav li a button:hover {
+            color: red;
+            border-color: red;
+            border-radius: 2px;
+        }
+    </style>
 
 
 </head>
@@ -16,11 +51,19 @@
 <body>
     <!-- ============================= Header ========================= -->
     <header>
-
+        <img src="C:\Users\dpkbj\OneDrive\Desktop\Hackodex\bookmark-landing-page\assets\images\logo-bookmark.svg">
+        <ul class="nav">
+            <li><a><button>LOGIN</button></a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">FEATURES</a></li>
+        </ul>
     </header>
 
     <!-- ============================= Main =========================== -->
     <main>
+
+
         Features Pricing Contact Login A Simple Bookmark Manager A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free. Get it on Chrome Get it on Firefox Features Our aim is
         to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go. Simple Bookmarking Speedy Searching Easy Sharing Bookmark in one click Organize your bookmarks however
         you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites. More Info Intelligent search Our powerful search feature will help you find saved sites in no time at all. No need to trawl through
