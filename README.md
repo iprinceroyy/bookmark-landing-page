@@ -58,7 +58,7 @@ Welcomes you all to contribute to this project
 
 ### Issue
 
-Feel free to submit issues and enhancement requets
+Feel free to submit issues and enhancement request
 
 ### Contributing Guidlines
 
@@ -70,6 +70,6 @@ In general, we follow the 'fork-and-pull' Git Workflow
 5. **Push** your work back upto your fork 
 6. Submit a **pull request** so that we can reveiw your changes  
     
-NOTE: be sure to merge the lastes from "upstream" before making a pull reuqest!  
+NOTE: be sure to merge the lastes from "upstream" before making a pull request!  
 
 ## Contributors
