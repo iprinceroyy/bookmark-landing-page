@@ -11,7 +11,7 @@
     -   [Useful resources](#useful-resources)
 -   [Contribution](#contributing-to-bookmark-landing-page)
     -   [Issue](#issue)
-    -   [Contributing Guidlines](#contributing-guidlines)
+    -   [Contributing Guidelines](#contributing-guidelines)
 -   [Contributors](#contributors)
 
 ## Overview
@@ -60,7 +60,7 @@ Welcomes you all to contribute to this project
 
 Feel free to submit issues and enhancement request
 
-### Contributing Guidlines
+### Contributing Guidelines
 
 In general, we follow the 'fork-and-pull' Git Workflow  
 1. Fork the repo on github
@@ -68,8 +68,8 @@ In general, we follow the 'fork-and-pull' Git Workflow
 3. Create separate branch with title 'yourname/dev'
 4. **Commit** the changes to your own branch
 5. **Push** your work back upto your fork 
-6. Submit a **pull request** so that we can reveiw your changes  
+6. Submit a **pull request** so that we can review your changes  
     
-NOTE: be sure to merge the lastes from "upstream" before making a pull request!  
+NOTE: be sure to merge the latest from "upstream" before making a pull request!  
 
 ## Contributors
