@@ -58,9 +58,13 @@ Welcomes you all to contribute to this project
 
 ### Issue
 
+<<<<<<< HEAD
 Feel free to submit issues and enhancement requests
+=======
+Feel free to submit issues and enhancement request
+>>>>>>> d30bb86b492b6d52d848c76a4999a9a213bfd4df
 
-### Contributing Guidlines
+### Contributing Guidelines
 
 In general, we follow the 'fork-and-pull' Git Workflow  
 1. Fork the repo on github
