@@ -10,23 +10,26 @@
     <!-- <link rel="stylesheet" href=".css/index.css"> -->
 
     <title>Bookmark landing page</title>
+
     <style>
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+        
         .nav {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            /* overflow: hidden; */
-            display: inline;
         }
         
         .nav li {
-            float: right;
+            display: inline;
         }
         
         .nav li a {
-            display: block;
-            text-decoration: none;
             padding: 0 12px;
+            text-decoration: none;
             color: black;
         }
         
@@ -34,30 +37,35 @@
             color: red;
         }
         
-        .nav li a button {
-            padding: 2px 8px;
+        button {
+            border-radius: 3px;
+            cursor: pointer;
+            padding: 5px 15px;
         }
         
-        .nav li a button:hover {
+        button:hover {
+            border-radius: 3px;
             color: red;
             border-color: red;
-            border-radius: 2px;
         }
     </style>
-
 
 </head>
 
 <body>
     <!-- ============================= Header ========================= -->
     <header>
-        <img src="C:\Users\dpkbj\OneDrive\Desktop\Hackodex\bookmark-landing-page\assets\images\logo-bookmark.svg">
-        <ul class="nav">
-            <li><a><button>LOGIN</button></a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">PRICING</a></li>
-            <li><a href="#">FEATURES</a></li>
-        </ul>
+        <div>
+            <img src="C:\Users\dpkbj\OneDrive\Desktop\Hackodex\bookmark-landing-page\assets\images\logo-bookmark.svg">
+            <ul class="nav">
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a><button>LOGIN</button></a></li>
+
+            </ul>
+
+        </div>
     </header>
 
     <!-- ============================= Main =========================== -->
