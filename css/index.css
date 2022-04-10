@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline;
+}
+.nav li a {
+  padding: 0 12px;
+  text-decoration: none;
+  color: #000000;
+}
+.nav li a:hover {
+  color: #ff0000;
+}
+
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+button:hover {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+
+/*# sourceMappingURL=index.css.map */
