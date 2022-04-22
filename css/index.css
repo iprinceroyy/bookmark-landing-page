@@ -1,33 +1,136 @@
+.container {
+  padding: 3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.bookmark {
+  width: 12rem;
 }
 
 .nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.nav li {
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 .nav li a {
   padding: 0 12px;
   text-decoration: none;
-  color: #000000;
 }
 .nav li a:hover {
   color: #ff0000;
 }
 
-button {
+#button {
   border-radius: 3px;
-  cursor: pointer;
-  padding: 5px 15px;
+  padding: 8px 16px;
+  background-color: #ff0000;
+  border: none;
+  margin-left: 2px;
+  color: #ffffff;
 }
-button:hover {
+#button:hover {
+  border: 2px solid #ff0000;
+  cursor: pointer;
+  background-color: transparent;
   color: #ff0000;
   border-color: #ff0000;
+}
+
+.hamburger {
+  display: none;
+  z-index: 1;
+}
+
+.icon {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  margin-left: 20%;
+}
+
+#fb {
+  margin-right: 30px;
+}
+
+@media (max-width: 290px) {
+  .icon {
+    margin-left: 10%;
+  }
+
+  .bookmark {
+    width: 10rem;
+  }
+}
+@media (max-width: 560px) {
+  .hamburger {
+    position: relative;
+    z-index: 1;
+    display: block;
+    cursor: pointer;
+  }
+
+  .icon {
+    display: block;
+    margin-top: 10rem;
+    border: none;
+  }
+
+  .fb {
+    margin-right: 2rem;
+  }
+
+  .border-top {
+    border-top: 2px solid #464646;
+  }
+
+  .nav {
+    position: fixed;
+    top: -110%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 8rem 3rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgba(44, 62, 80, 0.6);
+  }
+  .nav li {
+    display: block;
+    border-width: 100%;
+    padding: 25px;
+  }
+  .nav li a {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .show {
+    top: 0;
+  }
+
+  #button {
+    padding: 2% 40%;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    margin-left: -10px;
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
