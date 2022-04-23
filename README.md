@@ -52,7 +52,7 @@ Users should be able to:
 -   [W3Schools](https://www.w3schools.com/) - Helpful for beginners.
 -   [FreeCodeCamp](https://www.freecodecamp.org/) - Huge tutorials related to CS.
 
-## Contributing to Bookmark Landing Page
+## Contributing to the Bookmark Landing Page
 
 Welcomes you all to contribute to this project
 
